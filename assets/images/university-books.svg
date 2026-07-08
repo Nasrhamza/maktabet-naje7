@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 430" role="img" aria-label="Université">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef5ed"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#1f2a24" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="520" height="430" rx="0" fill="url(#g)"/>
+  <circle cx="-20" cy="60" r="120" fill="#48664d" opacity=".16"/>
+  <circle cx="522" cy="402" r="180" fill="#1f2a24" opacity=".08"/>
+  <g filter="url(#shadow)"><rect x="72" y="110" width="34" height="260" rx="8" fill="#48664d" opacity=".92"/><rect x="81" y="135" width="16" height="180" rx="4" fill="#fffaf0" opacity=".35"/><rect x="118" y="110" width="34" height="260" rx="8" fill="#48664d" opacity=".92"/><rect x="127" y="135" width="16" height="180" rx="4" fill="#fffaf0" opacity=".35"/><rect x="164" y="110" width="34" height="260" rx="8" fill="#7a4e2d" opacity=".92"/><rect x="173" y="135" width="16" height="180" rx="4" fill="#fffaf0" opacity=".35"/><rect x="210" y="110" width="34" height="260" rx="8" fill="#d6a23a" opacity=".92"/><rect x="219" y="135" width="16" height="180" rx="4" fill="#fffaf0" opacity=".35"/><rect x="256" y="110" width="34" height="260" rx="8" fill="#48664d" opacity=".92"/><rect x="265" y="135" width="16" height="180" rx="4" fill="#fffaf0" opacity=".35"/><rect x="302" y="110" width="34" height="260" rx="8" fill="#48664d" opacity=".92"/><rect x="311" y="135" width="16" height="180" rx="4" fill="#fffaf0" opacity=".35"/><rect x="348" y="110" width="34" height="260" rx="8" fill="#7a4e2d" opacity=".92"/><rect x="357" y="135" width="16" height="180" rx="4" fill="#fffaf0" opacity=".35"/><rect x="394" y="110" width="34" height="260" rx="8" fill="#d6a23a" opacity=".92"/><rect x="403" y="135" width="16" height="180" rx="4" fill="#fffaf0" opacity=".35"/><rect x="52" y="370" width="430" height="26" rx="12" fill="#1f2a24" opacity=".22"/></g>
+  <rect x="28" y="28" width="464" height="374" rx="34" fill="none" stroke="#1f2a24" stroke-opacity=".10"/>
+  <text x="42" y="58" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900" fill="#1f2a24">Université</text>
+  <text x="42" y="84" font-family="Cairo, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2a24" opacity=".62">Polycopiés • Supports</text>
+</svg>

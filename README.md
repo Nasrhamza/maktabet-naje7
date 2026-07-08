@@ -1,35 +1,41 @@
-# Maktabet Naje7 - Static Website
+# Maktabet Naje7 — Site vitrine
 
-Site web one-page pour **Maktabet Naje7 / مكتبة النجاح**.
+Site statique HTML/CSS/JS pour **Maktabet Naje7 / مكتبة النجاح**.
 
-## Contenu du dossier
+## Mise à jour incluse
 
-- `index.html` : page principale
-- `assets/style.css` : design responsive
-- `assets/script.js` : menu mobile + année automatique
-- `vercel.json` : configuration Vercel simple
+- Design plus local et plus commercial.
+- Beaucoup plus d'images/visuels.
+- Galerie 12 images.
+- Produits avec images.
+- Bouton WhatsApp direct: `97981347`.
+- Compatible Vercel sans build.
 
-## Modifier les informations
+## Remplacer les images par des photos réelles
 
-Dans `index.html`, remplacez:
+Les images temporaires sont dans:
 
-- `Adresse: à ajouter`
-- `Horaires: à ajouter`
-- Ajoutez vos vrais réseaux sociaux si besoin
-- Remplacez les blocs Portfolio par des vraies images si vous voulez
+```txt
+assets/images/
+```
 
-Le lien WhatsApp utilisé est: `https://wa.me/21697981347`
+Pour un rendu plus réel, remplace ces fichiers par des photos de la boutique avec les mêmes noms, par exemple:
 
-## Hébergement gratuit sur Vercel avec GitHub
+- `boutique-books.svg`
+- `printing-service.svg`
+- `electronic-accessories.svg`
+- `gallery-01.svg` jusqu'à `gallery-12.svg`
 
-1. Créer un nouveau repository GitHub.
-2. Uploader tout le contenu de ce dossier dans le repository.
-3. Aller sur Vercel et cliquer **Add New > Project**.
-4. Importer le repository GitHub.
-5. Settings:
-   - Framework Preset: `Other`
-   - Build Command: laisser vide
-   - Output Directory: `.` ou laisser par défaut
-6. Cliquer **Deploy**.
+Tu peux aussi utiliser `.jpg` ou `.png`, mais dans ce cas il faut modifier les liens dans `index.html`.
 
-Après chaque modification sur GitHub, Vercel redéploie automatiquement.
+## Mettre à jour GitHub
+
+Après modification:
+
+```bash
+git add .
+git commit -m "Update design with gallery"
+git push
+```
+
+Vercel fera la mise à jour automatiquement.
